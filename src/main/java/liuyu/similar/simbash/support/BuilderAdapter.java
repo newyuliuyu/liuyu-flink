@@ -1,0 +1,22 @@
+package liuyu.similar.simbash.support;
+
+
+/**
+ * ClassName: BuilderAdapter <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON(可选). <br/>
+ * date: 18-9-4 下午5:29 <br/>
+ *
+ * @author liuyu
+ * @version v1.0
+ * @since JDK 1.7+
+ */
+public interface BuilderAdapter {
+    /**
+     * 构建
+     *
+     * @param nodeBuilder
+     * @return
+     */
+    public void build(NodeBuilder nodeBuilder);
+}
